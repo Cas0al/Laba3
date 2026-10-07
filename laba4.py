@@ -1,0 +1,13 @@
+a=int(input())
+sp=0
+su=1
+sp+=a%10
+su*=a%10
+a//=10
+sp+=a%10
+su*=a%10
+a//=10
+sp+=a
+su*=a
+print(sp)
+print(su)

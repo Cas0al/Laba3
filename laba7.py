@@ -1,0 +1,12 @@
+h=int(input())
+m=int(input())
+s=int(input())
+h1=int(input())
+m1=int(input())
+s1=int(input())
+tsec=(h1-h)*3600+(m1-m)*60+s1-s
+dh=tsec//3600
+tsec%=3600
+dm=tsec//60
+tsec%=60
+print(dh,'ч',dm,'м',tsec,'c')
